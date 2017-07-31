@@ -1,9 +1,12 @@
 {
   "manifest_version": 2,
 
-  "name": "DataDog Hexagon Dog",
-  "version": "0.1.0",
-  "description": "The real DataDog Extension - making your dashboard better; one doy at a time",
+  "name": "DataDog Host Dogs",
+  "author": "@wchi144",
+  "version": "1.0.0",
+  "description": "The real DataDog Extension - making your dashboard better; one dog at a time",
+  "icons": { "48": "./icons/icon.png" },
+  
 
   "content_scripts": [{
     "css": ["styles.css"],
