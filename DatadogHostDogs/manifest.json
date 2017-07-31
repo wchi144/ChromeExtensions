@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "DataDog Hexagon Dog",
+  "version": "0.1.0",
+  "description": "The real DataDog Extension - making your dashboard better; one doy at a time",
+
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["content.js"],
+    "matches": ["https://app.datadoghq.com/*"]
+  }]
+
+}
